@@ -1,0 +1,91 @@
+/* double from style.css*/
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    /*padding: 0 30px;*/
+}
+#content .inner-content {
+    background: #fff;
+    /*margin-left: 270px;*/
+    box-shadow: 0 0 5px #333333;
+    -webkit-box-shadow: 0 0 5px #333333;
+    -moz-box-shadow: 0 0 5px #333333;
+    -o-box-shadow: 0 0 5px #333333;
+}
+#content .inner-content .container {
+    /*max-width: 100%;*/
+}
+#container {
+    /*background: url('../upload/slide/bg.jpg') center fixed;*/
+}
+/*.end double from style.css*/
+
+.tp-leftarrow.default,
+.tp-rightarrow.default{
+    visibility: hidden;
+}
+
+#home-section .tp-caption.finewide_medium_white {
+    font-family: Lato, Roboto, sans-serif;
+    font-size: 4em;
+    font-weight: 100;
+    font-stretch: ultra-condensed;
+}
+
+.top-line ul.social-icons li a:active {
+    background: #006db7!important;
+}
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.header__wrap {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    padding: 40px 24px 10px 44px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.header__inner {
+    margin-left: 280px;
+}
+
+a.logo {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.1s ease-out 0s;
+    font-family: 'Titillium Web', sans-serif;
+}
+.logo {
+    float: left;
+}
+.yamm {
+    position: relative;
+    margin-bottom: 0;
+    min-height: auto;
+    border: 0 none;
+    z-index: 777;
+    vertical-align: middle;
+    float: left;
+}
+.yamm .nav {
+    position: relative;
+    margin-left: 16px;
+}
+.yamm .nav > li {
+    display: inline-block;
+    padding-right: 4px;
+    padding-left: 3px;
+    float: none;
+}

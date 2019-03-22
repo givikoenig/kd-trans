@@ -1,0 +1,35 @@
+<?php
+
+return [
+
+    'read_more' => 'Подробнее',
+    'footer_additional_contact' => 'С нами также можно связаться:',
+    'telfax' => 'Тел./Факс: ',
+    'cell' => 'Моб.: ',
+    'email' => 'Email: ',
+    'form_name' => 'Имя',
+    'form_email' => 'Email',
+    'form_phone' => 'Телефон',
+    'form_rank' => 'Должность/специальность',
+    'form_message' => 'Сообщение',
+    'form_whence' => 'Откуда',
+    'form_where' => 'Куда',
+    'form_cargo_info' => 'Сведения о грузе',
+    'form_sendmessage' => 'Отправить сообщение',
+    'form_sendorder' => 'Отправить заявку',
+    'form_contact_us' => 'Пишите нам',
+    'form_order_title' => 'Заказать перевозку',
+    'form_you_can_contact_us' => 'Вы можете связаться с нами по телефону или почте',
+    'form_we_will_reply' => 'Мы ответим вам в кратчайшие сроки',
+    'form_or_visit_office' => 'Или посетите наш офис',
+    'form_subscribe' => 'Вы можете подписаться на рассылку и получать самые свежие новости от нас',
+    'form_submit_subscribe' => 'Подписаться',
+    'last_news' => 'Последние новости',
+    'message_sent' => 'Сообщение отправлено',
+    'order_sent' => 'Ваша заявка отправлена.',
+    'review_sent' => 'Сообщение отправлено. Спасибо за Ваш отзыв',
+    'subscribtion_sent' => 'Вы подписаны на рассылку новостей',
+    'testimonials_title' => 'Отзывы клиентов',
+    'testimonials' => 'Последние отзывы клиентов',
+    'put_your_testimonial' => 'Оставьте Ваш отзыв'
+];
