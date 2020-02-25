@@ -18,5 +18,6 @@ Route::group(['middleware' => 'web'], function() {
     Route::resource('testimonials', 'TestimonialsController');
     Route::post('/subscribe', 'DataController@subscribe');
     Route::get('/unsubscribe', 'DataController@unsubscribe');
+    Route::get('404', ['as' => '404', 'uses' => 'ErrorsController@notfound']);
 
 });

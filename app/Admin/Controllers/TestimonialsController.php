@@ -24,7 +24,7 @@ class TestimonialsController extends Controller
     {
         return $content
             ->header('ОТЗЫВЫ')
-            ->description('РЕДАКТИРОВАНИЕ')
+            ->description('Список [отображаться будут только верхних 7 опубликованных]')
             ->body($this->grid());
     }
 
@@ -39,7 +39,7 @@ class TestimonialsController extends Controller
     {
         return $content
             ->header('ОТЗЫВЫ')
-            ->description('ПРОСМОТР')
+            ->description('ПРОСМОТР значений')
             ->body($this->detail($id));
     }
 
@@ -53,8 +53,8 @@ class TestimonialsController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('ОТЗЫВЫ')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +67,8 @@ class TestimonialsController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('ОТЗЫВЫ')
+            ->description('НОВЫЙ ОТЗЫВ')
             ->body($this->form());
     }
 
@@ -91,7 +91,6 @@ class TestimonialsController extends Controller
         $grid->text('Отзыв')->display(function($text) {
             return str_limit($text, 200);
         });
-
         $states = [
             'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
             'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],

@@ -24,8 +24,8 @@ class ArticleController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Статьи инфоблока')
+            ->description('СПИСОК [Отображаться будут только опубликованные]')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class ArticleController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Статьи инфоблока')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class ArticleController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Статьи инфоблока')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +68,8 @@ class ArticleController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Статьи инфоблока')
+            ->description('СОЗДАНИЕ НОВОЙ СТАТЬИ')
             ->body($this->form());
     }
 
@@ -83,6 +83,11 @@ class ArticleController extends Controller
         $grid = new Grid(new Article);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->ru_title('Title Ru');
         $grid->ru_text('Text Ru')->display(function($text) {
             return str_limit($text, 150, '…');
@@ -115,6 +120,7 @@ class ArticleController extends Controller
         $show = new Show(Article::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru_title('Title Ru');
         $show->ru_text('Text Ru');
         $show->de_title('Title De');
@@ -141,7 +147,9 @@ class ArticleController extends Controller
     protected function form()
     {
         $form = new Form(new Article);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('ru_title', 'Title Ru')->rules('required|max:100');
         $form->ckeditor('ru_text', 'Text Ru');
         $form->text('de_title', 'Title De')->rules('required|max:100');;

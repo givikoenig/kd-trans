@@ -24,8 +24,8 @@ class NewsController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Новости')
+            ->description('СПИСОК [Отображаться будут верхние 5 активных]')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class NewsController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Новости')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class NewsController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Новости')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +68,8 @@ class NewsController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Новости')
+            ->description('НОВАЯ новость')
             ->body($this->form());
     }
 
@@ -82,7 +82,11 @@ class NewsController extends Controller
     {
         $grid = new Grid(new News);
         $grid->model()->orderBy('created_at', 'desc');
-
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->id('Id');
         $grid->ru_title('Title Ru');
         $grid->ru_text('Text Ru')->display(function($text) {
@@ -118,6 +122,7 @@ class NewsController extends Controller
         $show = new Show(News::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru_title('Title Ru');
         $show->ru_text('Text Ru');
         $show->de_title('Title De');
@@ -144,7 +149,9 @@ class NewsController extends Controller
     protected function form()
     {
         $form = new Form(new News);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('ru_title', 'Title Ru')->rules('required|max:100');
         $form->ckeditor('ru_text', 'Text Ru');
         $form->text('de_title', 'Title De')->rules('required|max:100');;

@@ -17,5 +17,14 @@
  * Admin::js('/packages/prettydocs/js/main.js');
  *
  */
+use Encore\Admin\Facades\Admin;
+
+Admin::navbar(function (\Encore\Admin\Widgets\Navbar $navbar) {
+
+    $navbar->right('<li><a href="http://kd-trans.com"
+    target="_blank"
+    style="color: #fff;">На сайт</a></li>');
+
+});
 
 Encore\Admin\Form::forget(['map', 'editor']);

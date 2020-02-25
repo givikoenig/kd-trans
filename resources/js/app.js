@@ -49,6 +49,7 @@ Vue.component('contacts-page-content-component', require('./components/ContactsP
 Vue.component('testimonials-block', require('./components/TestimonialsBlock').default);
 Vue.component('testimonials-page-content-component', require('./components/TestimonialsPageContent').default);
 Vue.component('testimonials-page-form', require('./components/TestimonialsForm').default);
+Vue.component('error-page-component', require('./components/ErrorPageComponent').default);
 
 var app = new Vue({
     el: '#app'

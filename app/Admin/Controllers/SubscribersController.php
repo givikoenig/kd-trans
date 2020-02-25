@@ -23,8 +23,8 @@ class SubscribersController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Подписачики на новости (на стр."Новости")')
+            ->description('СПИСОК [Нигде не публикуется]')
             ->body($this->grid());
     }
 
@@ -38,8 +38,8 @@ class SubscribersController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Подписачики на новости (на стр."Новости")')
+            ->description('ПРОСМОТР значений')
             ->body($this->detail($id));
     }
 
@@ -53,8 +53,8 @@ class SubscribersController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Подписачики на новости (на стр."Новости")')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +67,8 @@ class SubscribersController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Подписачики на новости (на стр."Новости")')
+            ->description('НОВЫЙ подписчик')
             ->body($this->form());
     }
 

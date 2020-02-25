@@ -99,7 +99,7 @@
                     lat: 54.726063,
                     lng: 20.501396
                 },
-                infoText: 'Rustrans - KD-Trans'
+                infoText: 'Rustrans - KD-TRANS.com'
             }],
             action: '/order-message',
             fields: {},

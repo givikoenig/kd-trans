@@ -24,8 +24,8 @@ class ServiceController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Услуги')
+            ->description('СПИСОК')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class ServiceController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Услуги')
+            ->description('Просмотр значение')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class ServiceController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('УСЛУГИ')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +68,8 @@ class ServiceController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Услуги')
+            ->description('НОВАЯ услуга')
             ->body($this->form());
     }
 
@@ -107,8 +107,6 @@ class ServiceController extends Controller
         $grid->img2()->image( asset( 'assets') . '/images/', 100 );
         $grid->keywords('Keywords');
         $grid->meta_desc('Meta desc');
-        $grid->created_at('Created at');
-        $grid->updated_at('Updated at');
 
         return $grid;
     }
@@ -155,7 +153,6 @@ class ServiceController extends Controller
     protected function form()
     {
         $form = new Form(new Service);
-
         $form->text('ru_title', 'Title Ru')->rules('required|max:100');
         $form->ckeditor('ru_text', 'Text Ru');
         $form->text('de_title', 'Title De')->rules('required|max:100');;

@@ -24,8 +24,8 @@ class BlockAboutController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Блок "Коротко о нас" на главной странице')
+            ->description('СПИСОК [Будет отображаться только самый верхний в списке со статусом "Опубликовано"]')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class BlockAboutController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Блок "Коротко о нас" на главной странице')
+            ->description('Просмотр значений полей формы')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class BlockAboutController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Блок "Коротко о нас" на главной странице')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 

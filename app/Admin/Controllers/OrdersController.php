@@ -24,7 +24,9 @@ class OrdersController extends Controller
     {
         return $content
             ->header('Заявки через сайт')
-            ->description('СПИСОК')
+            ->description('СПИСОК [Нигде не публикуется].
+             Переключатель "Обработано - Не обработано" - только для памяти
+              (вдруг забудешь заявку обработать)')
             ->body($this->grid());
     }
 
@@ -39,7 +41,7 @@ class OrdersController extends Controller
     {
         return $content
             ->header('Заявки через сайт')
-            ->description('РЕДАКТИРОВАНИЕ')
+            ->description('ПРОСМОТР ЗНАЧЕНИЙ')
             ->body($this->detail($id));
     }
 
@@ -53,8 +55,8 @@ class OrdersController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Заявки через сайт')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +69,8 @@ class OrdersController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Заявки через сайт')
+            ->description('НОВАЯ ЗАЯВКА')
             ->body($this->form());
     }
 

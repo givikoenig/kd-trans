@@ -37,24 +37,15 @@ class AboutController extends Controller
         $lang = app()->getLocale();
         $data = $this->p_rep->getData($this->title,$this->description,$this->keywords);
         $contacts_labels_txt = $this->l_rep->getContacts();
-
         $page_title = $this->l_rep->getPageTitle($request);
-
         $db_menu_data = $this->l_rep->getDbMenuData();
-
         $buttons_labels_txt = __('buttons');
         $footer_labels_data = $this->l_rep->getFooterLabelsData($buttons_labels_txt);
-
-        $page_about_data = About::select($lang . '_text as text', 'img', $lang . '_subtext as subtext')
-            ->first()->toArray() ?? [];
-        $page_about_data['img'] = '/assets/images/' . $page_about_data['img'] ?? [];
-
+        $page_about_data = $this->l_rep->getAboutPageData();
         $counter_title = $this->l_rep->getCountersBlockData()['title'];
         $counter_data = $this->l_rep->getCountersBlockData()['data'];
-
         $values_title = $this->l_rep->getValuesBlockData()['maintitle'];
         $values_data = $this->l_rep->getValuesBlockData()['data'];
-
         $partners_data = $this->l_rep->getPartnersBlockData();
 
         return view('site.about', $data, [

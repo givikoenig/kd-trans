@@ -6,7 +6,7 @@
                     <div class="wpb_wrapper">
                         <div class="section-contacts-block">
                             <h3 class="contacts-block__title ui-title-inner">
-                                KD-Trans
+                                KD-TRANS.com
                             </h3>
                             <div class="decor-2 decor-2_mod-b"></div>
                             <div class="contacts-block__description" style="font: 300 14px/1.714 Lato, Helvetica, Arial, sans-serif;">

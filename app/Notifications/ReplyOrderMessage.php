@@ -48,7 +48,7 @@ class ReplyOrderMessage extends Notification
             ->line('Thank you for your message.')
             ->line('Your transportation order has been received.')
             ->line('We will reply you as soon as possible.')
-            ->salutation('Regards, KD-Trans Team ');
+            ->salutation('Regards, KD-Trans.com Team ');
     }
 
     /**

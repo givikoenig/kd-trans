@@ -23,12 +23,18 @@ class ServicesController extends Controller
         $this->p_rep = $p_rep;
         $this->l_rep = $l_rep;
         $segment = \request()->segment(2);
-        $this->title = Navigation::select($lang . '_title as title')
-            ->where('lnk', 'like', "%{$segment}%")
-            ->first()->title;
-        $this->description =  strip_tags( Service::select($lang . '_text as text')
+	$services_coll =  strip_tags( Service::select($lang . '_text as text')
             ->where('alias', $segment)
-            ->first()->text);
+            ->first());
+        if (is_object($services_coll)) {
+            $this->title = $services_coll->text;
+        }
+	$services_coll =  strip_tags( Service::select($lang . '_text as text')
+            ->where('alias', $segment)
+            ->first());
+        if (is_object($services_coll)) {
+            $this->title = $services_coll->text;
+        }
         $this->keywords = Article::whereNotNull('keywords')
                 ->first()->keywords ?? 'cargo,transportation,trucking';
     }

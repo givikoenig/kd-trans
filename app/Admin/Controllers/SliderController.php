@@ -25,7 +25,7 @@ class SliderController extends Controller
     {
         return $content
             ->header('Слайдер на главной странице')
-            ->description('(изображения и рекламный заголовок)')
+            ->description('(Отображаться будут только опубликованные слайды)')
             ->body($this->grid());
     }
 
@@ -39,8 +39,7 @@ class SliderController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Просмотр слайда')
-//            ->description('description')
+            ->header('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -55,7 +54,6 @@ class SliderController extends Controller
     {
         return $content
             ->header('Редактирование слайда')
-//            ->description('')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +66,8 @@ class SliderController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Слайдер на главной странице')
+            ->description('НОВЫЙ СЛАЙД')
             ->body($this->form());
     }
 
@@ -83,6 +81,11 @@ class SliderController extends Controller
         $grid = new Grid(new Slider);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->ru('Ru')->editable();
         $grid->de('De')->editable();
         $grid->en('En')->editable();
@@ -105,6 +108,7 @@ class SliderController extends Controller
         $show = new Show(Slider::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru('Ru');
         $show->de('De');
         $show->en('En');
@@ -125,7 +129,9 @@ class SliderController extends Controller
     protected function form()
     {
         $form = new Form(new Slider);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('ru', 'Ru');
         $form->text('de', 'De');
         $form->text('en', 'En');

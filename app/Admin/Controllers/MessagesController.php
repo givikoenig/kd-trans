@@ -23,8 +23,8 @@ class MessagesController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Сообщения через сайт (на странице "Контакты")')
+            ->description('СПИСОК [Нигде не публикуются]')
             ->body($this->grid());
     }
 
@@ -38,8 +38,8 @@ class MessagesController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Сообщения через сайт (на странице "Контакты")')
+            ->description('ПРОСМОТР значений')
             ->body($this->detail($id));
     }
 
@@ -53,8 +53,8 @@ class MessagesController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Сообщения через сайт (на странице "Контакты")')
+            ->description('РЕДАТИРОВАНИЕ (хотя нафиг оно нужно)')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +67,8 @@ class MessagesController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Сообщения через сайт (на странице "Контакты")')
+            ->description('НОВОЕ сообщение (хотя нафиг оно нужно)')
             ->body($this->form());
     }
 

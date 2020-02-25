@@ -49,8 +49,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p v-if="year === 2019" class="copyright">&copy; {{year}}. "KD-TRANS" Co.</p>
-                        <p v-else="" class="copyright">&copy; 2019 - {{year}}. "KD-TRANS" Co.</p>
+                        <p v-if="year === 2019" class="copyright">&copy; {{year}}. "KD-TRANS.com"</p>
+                        <p v-else="" class="copyright">&copy; 2019 - {{year}}. "KD-TRANS.com"</p>
                     </div>
                     <div class="col-md-6 hidden-xs">
                         <p class="copyright right">

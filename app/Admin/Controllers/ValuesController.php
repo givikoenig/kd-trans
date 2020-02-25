@@ -23,8 +23,9 @@ class ValuesController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Блок "Ценности" стр."О компании"')
+            ->description('[отображаться будут 4 верхних опубликованных счетчика.]
+                Заголовок блока (напр. "Ценности компании") можно заполнять только в одном счетчике')
             ->body($this->grid());
     }
 
@@ -38,8 +39,8 @@ class ValuesController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Блок "Ценности" стр."О компании"')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -53,8 +54,8 @@ class ValuesController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Блок "Ценности" стр."О компании"')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +68,8 @@ class ValuesController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Блок "Ценности" стр."О компании"')
+            ->description('НОВЫЙ блок')
             ->body($this->form());
     }
 
@@ -82,6 +83,11 @@ class ValuesController extends Controller
         $grid = new Grid(new Value);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->ru_main_title('Ru title');
         $grid->de_main_title('De title');
         $grid->en_main_title('En title');
@@ -111,6 +117,7 @@ class ValuesController extends Controller
         $show = new Show(Value::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru_main_title('Ru title');
         $show->de_main_title('De title');
         $show->en_main_title('En title');
@@ -137,7 +144,9 @@ class ValuesController extends Controller
     protected function form()
     {
         $form = new Form(new Value);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('ru_main_title', 'Ru title');
         $form->text('de_main_title', 'De title');
         $form->text('en_main_title', 'En title');

@@ -8,7 +8,7 @@
 <script type="text/javascript" src="{{ asset('assets/js/jquery.imagesloaded.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/js/jquery.isotope.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('assets/js/retina-1.1.0.min.js') }}"></script>
+<!-- <script type="text/javascript" src="{{ asset('assets/js/retina-1.1.0.min.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('assets/js/plugins-scroll.js') }}"></script>
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="{{ asset('assets/js/jquery.themepunch.tools.min.js') }}"></script>

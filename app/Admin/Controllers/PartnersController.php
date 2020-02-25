@@ -24,8 +24,8 @@ class PartnersController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Блок рекламы партнеров')
+            ->description('СПИСОК [Отображаться будут только опубликованные]')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class PartnersController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Блок рекламы партнеров')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class PartnersController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Блок рекламы партнеров')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +68,8 @@ class PartnersController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Блок рекламы партнеров')
+            ->description('НОВЫЙ ПАРТНЕР')
             ->body($this->form());
     }
 
@@ -83,6 +83,11 @@ class PartnersController extends Controller
         $grid = new Grid(new Partner);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->name('Name');
         $grid->img()->image( asset( 'assets') . '/images/', 100 );
         $grid->url('Url');
@@ -103,6 +108,7 @@ class PartnersController extends Controller
         $show = new Show(Partner::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->name('Name');
         $show->img('Img');
         $show->url('Url');
@@ -120,7 +126,9 @@ class PartnersController extends Controller
     protected function form()
     {
         $form = new Form(new Partner);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('name', 'Name');
         $form->image('img','Изображение')->fit(Config::get('settings.client_image')['width'],
             Config::get('settings.client_image')['height'])->move('clients')->name(function($file) {

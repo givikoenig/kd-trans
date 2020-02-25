@@ -23,8 +23,9 @@ class CounterController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Блок счетчиков стр. "О компании"')
+            ->description('СПИСОК [отображаться будут 4 верхних опубликованных счетчика.]
+                Заголовок блока (напр. "Факты") можно заполнять только в одном счетчике')
             ->body($this->grid());
     }
 
@@ -38,8 +39,8 @@ class CounterController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Блок счетчиков стр. "О компании"')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -53,8 +54,8 @@ class CounterController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Блок счетчиков стр. "О компании"')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +68,8 @@ class CounterController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Блок счетчиков стр. "О компании"')
+            ->description('НОВЫЙ счетчик')
             ->body($this->form());
     }
 
@@ -82,6 +83,11 @@ class CounterController extends Controller
         $grid = new Grid(new Counter);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->ru_title('Ru title');
         $grid->de_title('De title');
         $grid->en_title('En title');
@@ -109,6 +115,7 @@ class CounterController extends Controller
         $show = new Show(Counter::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru_title('Ru title');
         $show->de_title('De title');
         $show->en_title('En title');
@@ -132,7 +139,9 @@ class CounterController extends Controller
     protected function form()
     {
         $form = new Form(new Counter);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->text('ru_title', 'Ru title');
         $form->text('de_title', 'De title');
         $form->text('en_title', 'En title');

@@ -24,8 +24,8 @@ class AboutController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('О Компании')
-//            ->description('description')
+            ->header('Статья на странице "О Компании"')
+            ->description('СПИСОК [Отображаться будет только верхняя опубликованная]')
             ->body($this->grid());
     }
 
@@ -39,8 +39,8 @@ class AboutController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('О компании')
-            ->description('просмотр')
+            ->header('Статья на странице "О Компании"')
+            ->description('Просмотр значений')
             ->body($this->detail($id));
     }
 
@@ -54,8 +54,8 @@ class AboutController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('О компании')
-            ->description('редактирование')
+            ->header('Статья на странице "О Компании"')
+            ->description('РЕДАКТИРОВАНИЕ')
             ->body($this->form()->edit($id));
     }
 
@@ -68,8 +68,8 @@ class AboutController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Статья на странице "О Компании"')
+            ->description('НОВАЯ СТАТЬЯ')
             ->body($this->form());
     }
 
@@ -83,6 +83,11 @@ class AboutController extends Controller
         $grid = new Grid(new About);
 
         $grid->id('Id');
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'YES', 'color' => 'primary'],
+            'off' => ['value' => 0, 'text' => 'NO', 'color' => 'default'],
+        ];
+        $grid->active('Опубликовано')->switch($states);
         $grid->ru_text('Text Ru')->display(function($text) {
             return str_limit($text, 150, '…');
         });
@@ -125,6 +130,7 @@ class AboutController extends Controller
         $show = new Show(About::findOrFail($id));
 
         $show->id('Id');
+        $show->active('Active');
         $show->ru_text('Text Ru')->display(function($text) {
             return str_limit($text, 150, '…');
         });
@@ -164,7 +170,9 @@ class AboutController extends Controller
     protected function form()
     {
         $form = new Form(new About);
-
+        $form->switch('active', 'Отображение на странице')
+            ->options([1 => 'Активен', 0 => 'Неактивен'])
+            ->default(0);
         $form->ckeditor('ru_text', 'Ru text');
         $form->ckeditor('de_text', 'De text');
         $form->ckeditor('en_text', 'En text');

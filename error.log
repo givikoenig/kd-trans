@@ -1,0 +1,414 @@
+[Fri Mar 22 16:11:48.110702 2019] [php7:warn] [pid 20559] [client 195.135.212.35:53965] PHP Warning:  POST Content-Length of 18473472 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://kd-trans.com/admin/site/blockabout/1/edit
+[Fri Mar 22 17:44:13.463878 2019] [autoindex:error] [pid 21287] [client 195.135.212.35:53457] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 17:44:13.998551 2019] [autoindex:error] [pid 21293] [client 195.135.212.35:41695] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 17:45:03.799497 2019] [autoindex:error] [pid 21434] [client 195.135.212.35:45871] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 17:45:04.135403 2019] [autoindex:error] [pid 21282] [client 195.135.212.35:37536] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 19:00:35.562628 2019] [autoindex:error] [pid 21299] [client 195.135.212.35:33019] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 19:00:37.729723 2019] [autoindex:error] [pid 21299] [client 195.135.212.35:33019] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 19:20:17.767669 2019] [autoindex:error] [pid 21293] [client 195.135.212.35:60545] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 21:25:07.976384 2019] [autoindex:error] [pid 23421] [client 195.135.212.35:39398] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 21:25:08.419053 2019] [autoindex:error] [pid 23398] [client 195.135.212.35:39745] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 21:25:23.258056 2019] [autoindex:error] [pid 23306] [client 195.135.212.35:40820] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 21:25:23.463657 2019] [autoindex:error] [pid 23234] [client 195.135.212.35:58602] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/tamozhennoe-oformlenie
+[Fri Mar 22 21:43:44.550031 2019] [autoindex:error] [pid 22619] [client 195.135.212.35:39624] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Fri Mar 22 21:43:44.975335 2019] [autoindex:error] [pid 22092] [client 195.135.212.35:51224] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Sat Mar 23 16:48:48.991740 2019] [php7:warn] [pid 24330] [client 195.135.212.35:53675] PHP Warning:  include(/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:48:49.011859 2019] [php7:warn] [pid 24330] [client 195.135.212.35:53675] PHP Warning:  include(): Failed opening '/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:48:49.012033 2019] [php7:error] [pid 24330] [client 195.135.212.35:53675] PHP Fatal error:  Uncaught ReflectionException: Class App\\Http\\Kernel does not exist in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php:779\nStack trace:\n#0 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\\\Http\\\\Kernel')\n#1 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\\Container\\Container->build('App\\\\Http\\\\Kernel')\n#2 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Kernel', Array)\n#3 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\\Container\\Container->make('App\\\\Http\\\\Kernel', Array)\n#4 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Kernel', Array)\n#5 /var/www/html/kd-trans/vendor/laravel/framework/src/Il in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779, referer: http://kd-trans.com/
+[Sat Mar 23 16:49:08.423570 2019] [php7:warn] [pid 24443] [client 195.135.212.35:37565] PHP Warning:  include(/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:49:08.423710 2019] [php7:warn] [pid 24443] [client 195.135.212.35:37565] PHP Warning:  include(): Failed opening '/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:49:08.423901 2019] [php7:error] [pid 24443] [client 195.135.212.35:37565] PHP Fatal error:  Uncaught ReflectionException: Class App\\Http\\Kernel does not exist in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php:779\nStack trace:\n#0 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\\\Http\\\\Kernel')\n#1 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\\Container\\Container->build('App\\\\Http\\\\Kernel')\n#2 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Kernel', Array)\n#3 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\\Container\\Container->make('App\\\\Http\\\\Kernel', Array)\n#4 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Kernel', Array)\n#5 /var/www/html/kd-trans/vendor/laravel/framework/src/Il in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779, referer: http://kd-trans.com/
+[Sat Mar 23 16:50:03.957234 2019] [php7:warn] [pid 24328] [client 195.135.212.35:42363] PHP Warning:  include(/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:50:03.957396 2019] [php7:warn] [pid 24328] [client 195.135.212.35:42363] PHP Warning:  include(): Failed opening '/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444, referer: http://kd-trans.com/
+[Sat Mar 23 16:50:03.957599 2019] [php7:error] [pid 24328] [client 195.135.212.35:42363] PHP Fatal error:  Uncaught ReflectionException: Class App\\Http\\Kernel does not exist in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php:779\nStack trace:\n#0 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\\\Http\\\\Kernel')\n#1 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\\Container\\Container->build('App\\\\Http\\\\Kernel')\n#2 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Kernel', Array)\n#3 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\\Container\\Container->make('App\\\\Http\\\\Kernel', Array)\n#4 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Kernel', Array)\n#5 /var/www/html/kd-trans/vendor/laravel/framework/src/Il in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779, referer: http://kd-trans.com/
+[Sat Mar 23 16:50:12.029125 2019] [php7:warn] [pid 29870] [client 195.135.212.35:42786] PHP Warning:  include(/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444
+[Sat Mar 23 16:50:12.029272 2019] [php7:warn] [pid 29870] [client 195.135.212.35:42786] PHP Warning:  include(): Failed opening '/var/www/html/kd-trans/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/kd-trans/vendor/composer/ClassLoader.php on line 444
+[Sat Mar 23 16:50:12.029480 2019] [php7:error] [pid 29870] [client 195.135.212.35:42786] PHP Fatal error:  Uncaught ReflectionException: Class App\\Http\\Kernel does not exist in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php:779\nStack trace:\n#0 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\\\Http\\\\Kernel')\n#1 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\\Container\\Container->build('App\\\\Http\\\\Kernel')\n#2 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Kernel', Array)\n#3 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\\Container\\Container->make('App\\\\Http\\\\Kernel', Array)\n#4 /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Kernel', Array)\n#5 /var/www/html/kd-trans/vendor/laravel/framework/src/Il in /var/www/html/kd-trans/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[Sun Mar 24 17:52:12.527659 2019] [autoindex:error] [pid 2901] [client 195.135.212.35:52368] AH01276: Cannot serve directory /var/www/html/kd-trans/public/assets/images/: No matching DirectoryIndex (index.php,index.html,index.cgi,index.pl,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive, referer: http://kd-trans.com/services/strakhovanie
+[Sat Apr 13 11:19:11.884063 2019] [ssl:error] [pid 3661] [client 46.101.9.216:32914] AH02032: Hostname hiipowerthreads.com provided via SNI and hostname kd-trans.com provided via HTTP have no compatible SSL setup
+[Mon Apr 29 17:09:20.030682 2019] [ssl:error] [pid 8703] [client 64.246.165.210:27734] AH02261: Re-negotiation handshake failed
+[Mon Apr 29 17:09:20.045366 2019] [ssl:error] [pid 8703] SSL Library Error: error:141E3152:SSL routines:final_renegotiate:unsafe legacy renegotiation disabled
+[Wed May 15 13:39:59.868570 2019] [ssl:warn] [pid 15455] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 13:41:43.937848 2019] [ssl:warn] [pid 17225] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 13:41:44.007421 2019] [ssl:warn] [pid 17234] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:41:09.038749 2019] [ssl:warn] [pid 17234] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:42:43.918818 2019] [ssl:warn] [pid 17234] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:43:23.907308 2019] [ssl:warn] [pid 22172] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:43:23.980810 2019] [ssl:warn] [pid 22181] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:46:11.983112 2019] [ssl:warn] [pid 22353] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 15 14:46:12.047005 2019] [ssl:warn] [pid 22362] AH01909: kd-trans.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 26 10:34:22.421914 2019] [ssl:error] [pid 6625] [client 104.248.17.204:50328] AH02042: rejecting client initiated renegotiation
+[Wed Jun 05 11:45:35.671141 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:35.808096 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:35.919160 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.030295 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.140529 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.251787 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.362347 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.472363 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.582562 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.692191 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.802570 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:36.913033 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.022543 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.133850 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.244376 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.356155 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.466955 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user mysqls not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.577280 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.687416 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.797086 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:37.906720 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.016955 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.126756 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.236567 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.346325 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.457232 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.568434 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.677773 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.788251 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:38.898785 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.009199 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.119953 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.229505 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.339270 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user admin not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.449206 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.559537 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.671169 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.781408 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:39.892108 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.002159 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.111874 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.221345 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.331344 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.441301 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.550966 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.660393 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.770776 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.881146 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:40.991754 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.102285 2019] [auth_basic:error] [pid 25291] [client 185.234.217.243:60268] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.378308 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user server not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.488340 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.599117 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.710163 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.819562 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:41.929943 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.040518 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.151035 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.261179 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.371526 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.481778 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.592421 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.702476 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.812977 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:42.922745 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.032987 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.142573 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.252393 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user 195 not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.363268 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.472814 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.582775 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.692396 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.802379 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:43.912797 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.023383 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.133012 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.242441 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.352412 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.461921 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.571825 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.682153 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.792676 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:44.902730 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.012263 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.122781 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user mysqld not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.232952 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.342956 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.452191 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.563022 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.672394 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.784027 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:45.894664 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.004566 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.113841 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.223847 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.335204 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.445870 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.556120 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.666418 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.777582 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:46.890089 2019] [auth_basic:error] [pid 25788] [client 185.234.217.243:41138] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.168323 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user pma not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.278014 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.388046 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.498330 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.608684 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.719658 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.830126 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:47.940390 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.050133 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.160360 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.270249 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.379937 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.490200 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.600479 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.710629 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.820997 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:48.931670 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.042004 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user websrvc not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.152065 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.262580 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.372473 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.483026 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.593324 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.703578 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.814243 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:49.924485 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.034198 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.145009 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.255225 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.364740 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.474935 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.590897 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.701070 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.811563 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:50.920994 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user serviced not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.031217 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.140808 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.251265 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.361947 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.472790 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.583402 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.693813 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.803983 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:51.913795 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.023251 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.133362 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.244205 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.354976 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.465563 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.576050 2019] [auth_basic:error] [pid 25789] [client 185.234.217.243:50246] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.856624 2019] [auth_basic:error] [pid 25790] [client 185.234.217.243:59170] AH01618: user root not found: /phpmyadmin/
+[Wed Jun 05 11:45:52.966495 2019] [auth_basic:error] [pid 25790] [client 185.234.217.243:59170] AH01618: user root not found: /phpmyadmin/
+[Fri Jul 12 11:12:40.899926 2019] [ssl:error] [pid 5532] [client 52.55.136.150:46918] AH02042: rejecting client initiated renegotiation
+[Sun Jul 21 10:44:43.635595 2019] [ssl:error] [pid 19255] [client 3.85.189.201:56431] AH02042: rejecting client initiated renegotiation
+[Tue Aug 06 21:35:52.941255 2019] [ssl:error] [pid 21610] [client 3.83.105.31:53014] AH02042: rejecting client initiated renegotiation
+[Sat Aug 10 00:51:29.833325 2019] [ssl:error] [pid 15984] [client 54.81.183.250:36031] AH02042: rejecting client initiated renegotiation
+[Sun Aug 11 02:29:29.559148 2019] [ssl:error] [pid 23718] [client 134.209.191.154:53880] AH02042: rejecting client initiated renegotiation
+[Thu Aug 22 19:22:52.249921 2019] [core:error] [pid 30916] [client 2.137.127.2:57178] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Fri Aug 23 15:45:12.277282 2019] [core:error] [pid 14548] [client 81.40.150.167:34848] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Sat Sep 07 13:14:56.389940 2019] [core:error] [pid 3097] [client 5.101.181.41:35563] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Tue Sep 17 12:18:12.994153 2019] [core:error] [pid 12119] [client 15.188.48.36:35790] AH00126: Invalid URI in request GET HTTP/1.1
+[Wed Sep 18 12:26:13.038537 2019] [ssl:error] [pid 2925] [client 157.230.111.133:49120] AH02042: rejecting client initiated renegotiation
+[Fri Oct 11 11:49:32.105705 2019] [ssl:error] [pid 30381] [client 142.93.139.240:39808] AH02042: rejecting client initiated renegotiation
+[Fri Nov 08 22:58:58.842352 2019] [authz_core:error] [pid 8036] [client 54.67.111.176:37886] AH01630: client denied by server configuration: /var/www/html/kd-trans/public/server-status
+[Sat Nov 23 11:55:20.175579 2019] [authz_core:error] [pid 12919] [client 54.78.208.197:52778] AH01630: client denied by server configuration: /var/www/html/kd-trans/public/server-status
+[Mon Nov 25 14:33:09.737405 2019] [ssl:error] [pid 14722] [client 134.209.92.18:49862] AH02042: rejecting client initiated renegotiation
+[Wed Jan 15 11:36:59.352819 2020] [ssl:warn] [pid 1279] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:40:14.933181 2020] [ssl:warn] [pid 1279] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:40:34.908179 2020] [ssl:warn] [pid 1279] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:41:31.445961 2020] [ssl:warn] [pid 24115] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:41:31.506590 2020] [ssl:warn] [pid 24122] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:45:02.649936 2020] [ssl:warn] [pid 24122] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:46:28.925287 2020] [ssl:warn] [pid 26453] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 15 11:46:28.995967 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 16 00:00:23.416197 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 17 00:00:21.171089 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 18 00:01:02.432596 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 19 00:00:53.889577 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 20 00:01:08.416310 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 21 00:00:55.627902 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 22 00:00:53.930422 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 23 00:01:03.403155 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 24 00:00:55.455213 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 25 00:01:07.749242 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 26 00:01:03.139627 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 27 00:00:58.583978 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 28 00:01:17.655226 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 28 22:15:28.592103 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 28 22:15:35.263877 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 29 00:00:51.821651 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 29 00:04:17.490093 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 29 00:04:24.506496 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 29 21:35:45.289030 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 29 21:35:52.287627 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 30 00:01:41.769412 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 30 02:55:49.734321 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 30 02:55:56.948506 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 30 13:50:47.880062 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 30 13:50:54.935603 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 31 00:00:59.529823 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 31 08:40:18.857052 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 31 08:40:26.204488 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 31 18:24:23.961713 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 31 18:24:31.094802 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 01 00:01:12.387297 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 01 09:42:45.550907 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 01 09:42:52.626846 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 01 21:21:43.728938 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 01 21:21:50.773647 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 02 00:01:27.526970 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 02 03:00:48.333519 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 02 03:00:55.398810 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 02 23:39:20.541675 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 02 23:39:27.650063 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 03 00:01:01.363454 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 03 05:13:45.205376 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 03 05:13:52.319498 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 03 21:59:42.890962 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 03 21:59:49.996324 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 00:01:06.420714 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 01:09:11.197946 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 01:09:18.228151 2020] [ssl:warn] [pid 26462] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 10:02:15.571660 2020] [ssl:warn] [pid 1057] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 10:02:17.319572 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 16:58:35.228013 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 04 16:58:42.207315 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 05 00:00:56.388140 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 05 11:41:10.089395 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 05 11:41:17.087958 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 05 19:19:32.444768 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 05 19:19:39.496917 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 06 00:01:32.492623 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 06 11:56:03.078380 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 06 11:56:10.162556 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 06 22:00:32.131890 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 06 22:00:39.258167 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 00:01:01.784157 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 00:35:32.895466 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 00:35:39.909464 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 23:37:24.394196 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 07 23:37:31.434737 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 00:00:50.561566 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 09:09:03.240580 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 09:09:10.388702 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:44:35.312340 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 08 16:44:42.389998 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 00:00:58.941441 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 04:22:02.817492 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 04:22:09.929791 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 21:16:26.833171 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 09 21:16:33.992893 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 00:01:36.987909 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 06:33:02.679216 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 06:33:09.818803 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 17:17:02.777338 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 10 17:17:10.237325 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 00:01:20.464712 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 07:08:02.739695 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 07:08:09.820839 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 22:28:32.734769 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 11 22:28:39.797770 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 00:01:05.212358 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 01:54:57.209781 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 01:55:05.051206 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:57:03.556341 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 12 15:57:10.680399 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 13 00:01:55.008517 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 13 06:10:32.266500 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 13 06:10:39.378401 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 13 12:49:56.919070 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 13 12:50:04.043488 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 00:01:49.291491 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 07:21:28.727493 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 07:21:35.800555 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 21:47:03.044326 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 21:47:09.766399 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 21:47:13.737198 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 14 21:47:20.897290 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 00:01:47.494809 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 06:37:02.489020 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 06:37:09.238284 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 06:37:13.411046 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 06:37:20.470264 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 15:18:03.748098 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 15:18:10.465864 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 15:18:13.987079 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 15 15:18:21.080819 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 00:00:58.339663 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 08:50:02.822514 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 08:50:09.946615 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 08:50:15.769428 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 08:50:22.852977 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 19:06:02.670581 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 19:06:09.466851 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 19:06:13.295841 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 16 19:06:20.616155 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 00:01:47.406736 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 02:27:26.768934 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 02:27:33.505655 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 02:27:37.052328 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 02:27:44.088930 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 13:28:03.227069 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 13:28:10.000137 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 13:28:13.808093 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 17 13:28:20.881503 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 00:01:44.107051 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 10:38:02.672785 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 10:38:09.387818 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 10:38:14.094969 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 10:38:21.088274 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 12:07:26.044770 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 12:07:32.706705 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 12:07:36.221624 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 18 12:07:43.302965 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 00:01:59.613066 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 04:10:32.450445 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 04:10:39.163398 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 04:10:42.758357 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 04:10:49.852316 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 21:20:32.774977 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 21:20:39.486207 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 21:20:43.032092 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 21:20:50.075513 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 00:01:57.572943 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 08:16:03.232592 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 08:16:09.883290 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 08:16:14.127092 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 08:16:21.257175 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 17:01:43.463135 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 17:01:50.143916 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 17:01:53.952437 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 20 17:02:01.010997 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 00:00:46.601534 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 02:03:57.646365 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 02:04:04.364360 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 02:04:08.703084 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 02:04:15.917928 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 20:19:44.528801 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 20:19:51.109601 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 20:19:56.235236 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 21 20:20:03.559825 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 00:00:58.053537 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 00:45:32.441750 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 00:45:39.171786 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 00:45:42.895194 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 00:45:49.887141 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 12:04:33.020783 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 12:04:39.611144 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 12:04:43.329782 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 22 12:04:50.367914 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 00:01:27.613829 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 08:29:31.712880 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 08:29:38.376127 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 08:29:42.237392 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 08:29:49.246358 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 12:48:55.048980 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 12:49:01.765606 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 12:49:05.431558 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 23 12:49:12.538022 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 00:01:31.787351 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 03:01:32.153357 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 03:01:38.838168 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 03:01:42.469197 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 03:01:49.590312 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 20:59:58.439198 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 21:00:05.379539 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 21:00:09.890440 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 24 21:00:17.026038 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 25 00:01:00.982649 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 25 01:08:02.609334 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 25 01:08:09.309621 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 25 01:08:13.651563 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 25 01:08:20.808644 2020] [ssl:warn] [pid 1256] AH01909: kd-trans.givik.ru:443:0 server certificate does NOT include an ID which matches the server name
